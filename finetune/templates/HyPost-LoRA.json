@@ -1,0 +1,5 @@
+{
+    "description": "HyPost template used by LoRA tuning.",
+    "prompt_h2t_nbest": "Below is the best-hypothesis transcribed from a speech recognition system. Please try to revise it using only the words included in other-hypotheses, and write the response for the true transcription. Furthermore, please generate the true transcription in a readable form by converting the appropriate words to numbers and symbols, adding punctuations where necessary, and identifying sentence boundaries (note that the transcript maybe an incomplete sentence or paragraph, missing its beginning and/or end).\n\n### Best-hypothesis:\n{best}\n\n### Other-hypotheses:\n{others}\n\n### Response:\n",
+    "response_split": "### Response:"
+}

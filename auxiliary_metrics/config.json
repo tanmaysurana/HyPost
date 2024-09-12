@@ -1,0 +1,8 @@
+{
+    "en":
+    {
+        "copy_chars": "abcdefghijklmnopqrstuvwxyz",
+        "symbols": "% & ° § + EUR CHF USD GBP m mm cm km m2 m3 km2 l dl ml g kg $ € £",
+        "punctuation": ",;:.?!/-()\""
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "description": "HyPost template used by LoRA tuning.",
+    "prompt_h2t_1best": "Below is a transcription from a speech recognition system. Please generate the transcription in a readable form by converting the appropriate words to numbers and symbols, adding punctuations where necessary, and identifying sentence boundaries (note that the transcript maybe an incomplete sentence or paragraph, missing its beginning and/or end). \n\n### Transcription:\n{best}\n\n### Response:\n",
+    "response_split": "### Response:"
+}

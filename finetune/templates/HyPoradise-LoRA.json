@@ -1,0 +1,5 @@
+{
+    "description": "H2T template used by LoRA tuning.",
+    "prompt_h2t_nbest": "Below is the best-hypothesis transcribed from a speech recognition system. Please try to revise it using only the words included in other-hypotheses, and write the response for the true transcription.\n\n### Best-hypothesis:\n{best}\n\n### Other-hypotheses:\n{others}\n\n### Response:\n",
+    "response_split": "### Response:"
+}
