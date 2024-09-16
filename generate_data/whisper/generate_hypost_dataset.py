@@ -79,7 +79,7 @@ ignore_tokens = [
 
 if __name__ == '__main__':
     import argparse
-    parser = argparse.ArgumentParser(description='HP dataset generation', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser = argparse.ArgumentParser(description='HyPost dataset generation', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--asr_wav', type=str, help='wav list file')
     parser.add_argument('--asr_txt', type=str, help='transcription file')
     parser.add_argument('--hp_json', type=str, help='generated hp data file')
@@ -136,7 +136,7 @@ if __name__ == '__main__':
 
             normalized_output = normalized_output if len(normalized_output) > 0 else '<UNK>'
 
-            if args.prompt:
+            if args.use_prompt:
                 # add dysfluencies and relaxed pronunciations back to hypotheses
                 proc_input = []
                 for i in input:
